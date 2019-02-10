@@ -1,12 +1,12 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-  <h1>Games List</h1>
-  {% if game_list %}
+  <h1>Publishers List</h1>
+  {% if publisher_list %}
   <ul>
-    {% for game in game_list %}
+    {% for publisher in publisher_list %}
       <li>
-        <a href="{{ game.get_absolute_url }}">{{ game.title }}</a> 
+        <a href=>{{ publisher }}</a> 
       </li>
     {% endfor %}
   </ul>

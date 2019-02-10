@@ -29,3 +29,6 @@ class GameListView (generic.ListView):
    
 class GameDetailView(generic.DetailView):
     model = Game
+
+class PublisherListView(generic.ListView):
+    model= Publisher
