@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.urls import reverse #used to generate URLS by reversing the patterns
 # Create your models here.
 class Game(models.Model):
     title = models.CharField(max_length=200)
